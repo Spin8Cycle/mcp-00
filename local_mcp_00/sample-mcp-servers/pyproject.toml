@@ -1,10 +1,13 @@
 [project]
-name = "weather-proj-sample-server"
+name = "sample-mcp-servers"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastmcp>=2.12.4",
     "httpx>=0.28.1",
+    "ipykernel>=7.0.1",
     "mcp[cli]>=1.18.0",
+    "openai>=2.6.0",
 ]
